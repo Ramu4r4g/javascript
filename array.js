@@ -1,0 +1,15 @@
+var items = new Array("apple", "banana", "cherry", "date");
+console.log(items);
+console.log(items[2]);
+items[0] = "avocado";
+console.log(items);
+console.log("Length of the array: ", items.length);
+items.pop();
+console.log(items);
+items.unshift("grape");
+console.log(items);
+items.shift();
+console.log(items);
+console.log(items.indexOf("cherry"));
+console.log(items.indexOf("mango"));
+console.log(Array.from("banana"));
