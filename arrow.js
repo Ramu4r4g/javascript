@@ -4,7 +4,7 @@ var isOdd = (num) => {
     }
     return false;
 }
-console.log(isOdd(13)); // true
+console.log(isOdd(13)); 
 const numbers1 = [13, 15, 17, 19];
 const result1 = numbers1.every(isOdd);
 console.log(result1);
